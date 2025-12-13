@@ -26,7 +26,7 @@ Use Case Terpilih: DC-03 – Learning Weekly Target
 
 Learning Weekly Target adalah aplikasi web yang membantu pengguna memantau konsistensi dan kebiasaan belajar melalui fitur check-in harian, pengaturan jadwal belajar mingguan, streak belajar, serta ringkasan aktivitas belajar.
 
-Proyek ini dikembangkan sebagai bagian dari Capstone / Project Brief Dicoding (ASAH) dengan arsitektur Frontend (HTML, CSS, JavaScript) dan Backend (Node.js, Express, Supabase) yang terhubung melalui REST API.
+Proyek ini dikembangkan sebagai bagian dari Capstone / Project Brief Dicoding (ASAH) dengan arsitektur Frontend dan Backend yang terhubung melalui REST API.
 
 ---
 
@@ -42,24 +42,15 @@ https://backend-production-4d64.up.railway.app
 
 ## Struktur Proyek
 
-learningweeklytarget/
-├── Backend/
-│   ├── config/
-│   │   └── supabase.js
-│   ├── controllers/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
-│
-├── Frontend/
-│   ├── components/
-│   ├── src/
-│   │   ├── script.js
-│   │   └── style.css
-│   └── index.html
-│
-├── Poster.png
-└── README.md
+#Frontend
+<p align="center">
+  <img src="StruktureFrontend" width="900">
+</p>
+
+#Backend
+<p align="center">
+  <img src="StruktureBackend" width="900">
+</p>
 
 ---
 
@@ -96,7 +87,7 @@ https://backend-production-4d64.up.railway.app/api/schedule/1
 
 ## Fitur Utama
 
-- Daily Check-in (mood dan progres belajar)
+- Daily Check-in
 - Weekly Learning Schedule
 - Learning Streak
 - Activity Summary
@@ -132,17 +123,10 @@ const API_BASE = "http://localhost:3000/api";
 
 ## Contact
 
-Maulana Yusuf  
-https://linkedin.com/in/your-linkedin
-
-Siti Nurpadilah  
-https://linkedin.com/in/your-linkedin
-
-Siti Rohmah  
-https://linkedin.com/in/your-linkedin
-
-Zainal Arif  
-https://linkedin.com/in/your-linkedin
-
-Imam Pauzi  
-https://linkedin.com/in/your-linkedin
+| Nama | LinkedIn |
+|-----|----------|
+| Maulana Yusuf | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/maulana-yusuf-0a3a5131b) |
+| Siti Nurpadilah | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/siti-rohmah-58549b372) |
+| Siti Rohmah | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/siti-nurpadilah-9a3497333) |
+| Zainal Arif | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/zainal-arif19) |
+| Imam Pauzi | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/imam-pauzi-2b58a3366) |
