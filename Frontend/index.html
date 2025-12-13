@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dicoding - Academy Mockup</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+
+  <body>
+    <div w3-include-html="components/navbar.html"></div>
+
+    <div class="app" style="padding-top: 70px">
+      <div w3-include-html="components/sidebar.html"></div>
+
+      <main class="main">
+        <div w3-include-html="components/page-header.html"></div>
+
+        <section class="grid">
+          <div w3-include-html="components/activity-card.html"></div>
+          <div w3-include-html="components/calendar-card.html"></div>
+        </section>
+      </main>
+    </div>
+
+    <div w3-include-html="components/modals/modal-schedule.html"></div>
+    <div w3-include-html="components/modals/modal-reminder.html"></div>
+    <div w3-include-html="components/modals/modal-daily-checkin.html"></div>
+    <div w3-include-html="components/modals/modal-not-submitted.html"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script>
+      w3.includeHTML(async function () {
+        console.log("HTML components loaded");
+
+        const script = document.createElement("script");
+        script.src = "src/script.js";
+        document.body.appendChild(script);
+
+        script.onload = () => {
+          if (typeof showActivity === "function") {
+            showActivity();
+          }
+        };
+      });
+    </script>
+  </body>
+</html>

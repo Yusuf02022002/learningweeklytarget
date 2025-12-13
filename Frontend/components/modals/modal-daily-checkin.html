@@ -1,0 +1,36 @@
+<div id="dailyOverlay" class="daily-overlay hidden"></div>
+
+<div id="dailyModal" class="daily-modal hidden">
+  <div class="daily-header">
+    <h2>Daily Check-in</h2>
+    <button id="closeDaily" class="daily-close">&times;</button>
+  </div>
+
+  <p id="dailyDate" class="daily-date">Senin, 10 November 2025</p>
+
+  <div class="daily-section">
+    <label>Bagaimana mood belajarmu?</label>
+    <div class="daily-moods">
+      <button class="mood-btn" data-mood="bad">😞 Bad</button>
+      <button class="mood-btn" data-mood="neutral">🙂 Neutral</button>
+      <button class="mood-btn" data-mood="great">🥰 Great</button>
+    </div>
+  </div>
+
+  <div class="daily-section">
+    <label>Apa yang kamu pelajari hari ini?</label>
+    <textarea
+      id="dailyText"
+      placeholder="Tuliskan progress belajarmu hari ini..."
+    ></textarea>
+  </div>
+
+  <div class="daily-footer">
+    <button id="dailyStatus" class="daily-status" disabled>Submitted</button>
+
+    <div class="daily-actions">
+      <button id="dailyCancel" class="daily-cancel">Batal</button>
+      <button id="dailySubmit" class="daily-submit">Submit</button>
+    </div>
+  </div>
+</div>

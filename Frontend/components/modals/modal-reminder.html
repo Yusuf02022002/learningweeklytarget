@@ -1,0 +1,23 @@
+<div id="reminderOverlay" class="overlay hidden">
+  <div id="reminderModal" class="modal">
+    <div class="modal-header">
+      <span>⏰ Pengingat Belajar</span>
+      <button class="modal-close" id="closeReminder">✕</button>
+    </div>
+    <div class="reminder-content">
+      <div class="reminder-icon"><i class="bi bi-alarm"></i></div>
+      <h3>Waktunya Belajar!</h3>
+      <p>
+        Anda memiliki jadwal belajar hari ini pukul
+        <strong id="reminderTime"></strong>
+      </p>
+      <p>Jangan lupa untuk mencatat progress belajar yah.</p>
+      <div class="reminder-actions">
+        <button class="btn-reminder" id="btnSnooze">Tunda 5 Menit</button>
+        <button class="btn-reminder primary" id="btnStartLearning">
+          Mulai Belajar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
