@@ -126,7 +126,7 @@ const API_BASE = "http://localhost:3000/api";
 | Nama | LinkedIn |
 |-----|----------|
 | Maulana Yusuf | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/maulana-yusuf-0a3a5131b) |
-| Siti Nurpadilah | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/siti-rohmah-58549b372) |
-| Siti Rohmah | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/siti-nurpadilah-9a3497333) |
+| Siti Nurpadilah | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/siti-nurpadilah-9a3497333) |
+| Siti Rohmah | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/siti-rohmah-58549b372) |
 | Zainal Arif | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/zainal-arif19) |
 | Imam Pauzi | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/imam-pauzi-2b58a3366) |
