@@ -42,14 +42,14 @@ https://backend-production-4d64.up.railway.app
 
 ## Struktur Proyek
 
-#Frontend
-<p align="center">
-  <img src="StruktureFrontend" width="900">
+**Frontend**
+<p align="left">
+  <img src="StruktureFrontend.jpg" width="300">
 </p>
 
-#Backend
-<p align="center">
-  <img src="StruktureBackend" width="900">
+**Backend**
+<p align="left">
+  <img src="StruktureBackend.jpg" width="300">
 </p>
 
 ---
