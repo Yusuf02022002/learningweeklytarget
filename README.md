@@ -16,7 +16,7 @@ Capstone Project - A25-CS168
 ## Learning Weekly Target
 
 <p align="center">
-  <img src="Poster.jpg" width="500">
+  <img src="Poster.png" width="500">
 </p>
 
 ---
