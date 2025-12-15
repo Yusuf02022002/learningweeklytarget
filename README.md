@@ -115,9 +115,9 @@ const API_BASE = "http://localhost:3000/api";
 
 ---
 
-## Demo Video
+## Video Presentasi
 
-(Link demo akan ditambahkan)
+https://youtu.be/OThVNv7O_ZE 
 
 ---
 
